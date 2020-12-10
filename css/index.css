@@ -1,13 +1,36 @@
-header {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {
 
 }
 
-main {
+.header__content-list {
+    
+}
+
+.header__content-item {
 
 }
 
-.header-p {
-    color: blue;
-    font-size: 30px;
-    text-align: center;
+.header__content-image {
+    width: 30%;
+}
+
+.nav__list,
+.header__content-list {
+    list-style: none;
+    margin: 0;
+    display: flex;
 }
